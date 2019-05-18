@@ -46,8 +46,6 @@ public class Klass extends Exception {
     }
 
     public void assignLeader(Student student) {
-//        if (member.isEmpty())
-//            System.out.println("It is not one of us.");
         for (Student stu : member) {
             if (stu == student) {
                 leader = student;
